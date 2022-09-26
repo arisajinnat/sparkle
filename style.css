@@ -1,0 +1,38 @@
+.sparkle-card{
+    border: 0;
+}
+.sparkle-card-footer{
+    background-color: white;
+    border: 0;
+}
+.sparkle-btn{
+    background-color: rgb(247, 1, 153);
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    
+}
+.categories img{
+    width: 100px;
+
+}
+.sparkle-slide{
+    background-color:lavenderblush;
+    border-radius: 20px;
+}
+
+.cat-bg1{
+    background-color: pink;
+}
+.cat-bg2{
+    background-color: rgba(217, 185, 247, 0.893);
+}
+.cat-bg3{
+    background-color: rgb(140, 197, 235);
+}
+.cat-border{
+    border-radius: 30px;
+}
+.subscribe-section{
+    background-color: lavenderblush;
+}

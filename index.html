@@ -6,9 +6,203 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPARKLE</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> Hello Sparkles! </h1>
+  <header class="container"><nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#shoes">Shoes</a>
+          <a class="nav-link" href="#bags">Bags</a>
+          <a class="nav-link " href="#subscribe">Subscribe</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="mt-5">
+    <div id="carouselExampleControls" class="carousel slide sparkle-slide" data-bs-ride="carousel ">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row d-flex align-items-center p-5">
+            <div class="col-md-7">
+              <h1>Roger Vivier MARY JANES </h1>
+              <p> Let your shoes be trendy and comfy this fall</p>
+              <h3>$4000</h3>
+              <button class="btn sparkle-btn btn-warning">Buy Now >></button>
+
+            </div>
+            <div class="col-md-5">
+              <img  src="images/banner-images/1.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row d-flex align-items-center p-5">
+            <div class="col-md-7">
+<h1> Vintage Backpack Fall launch</h1>
+<p>Recommended by fashion directors </p>
+<h3>$500</h3>
+<button class="btn sparkle-btn btn-warning">Buy Now >></button>
+            </div>
+            <div class="col-md-5">
+              <img src="images/banner-images/2.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row d-flex align-items-center p-5">
+            <div class="col-md-7">
+              <h1>Gucci Suede Brown Ankle Boots</h1>
+              <p>Grab that classic fashion essential for your wardrobe</p>
+              <h3>$7800</h3>
+              <button class="btn sparkle-btn btn-warning">Buy Now >></button>
+            </div>
+            <div class="col-md-5">
+              <img src="images/banner-images/3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+</header>
+<main class="container">
+  <section>
+    <div class="container overflow-hidden  mt-5 categories">
+      <div class="row g-5">
+        <div class="col">
+         <div class="p-3  cat-bg1 d-flex align-items-center justify-content-around cat-border">
+          <h1 class="text-white">Watch</h1>
+        <img class="w-50" src="images/categories/watch.png" alt=""></div>
+        </div>
+        <div class="col">
+          <div class="p-3  cat-bg2 d-flex align-items-center justify-content-around cat-border">
+           <h1 class="text-white">Bag</h1>>
+          <img class="w-50 " src="images/categories/bag.png" alt=""></div>
+        </div>
+        <div class="col">
+          <div class="p-3  cat-bg3 d-flex align-items-center justify-content-around cat-border">
+          <h1 class="text-white">Shoes</h1>>
+        <img class="w-50"src="images/categories/shoes.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="shoes" class="mt-5 ">
+    <h3>Shoes</h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4 ">
+      <div class="col">
+        <div class="card sparkle-card h-100 shadow">
+          <img class="h-50" src="images/shoes/1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> CHANEL Sling Pumps-white</h5>
+            <h5>$6550</h5>
+            <p class="card-text"> CHANEL pumps have been reinvented this season for Maria Grazia Chiuri’s Autumn 2022 collection. Embellished with a sling with these meticulously detailed, exceptional creations can be discovered online.</p>
+          </div>
+          <div class="card-footer sparkle-card-footer">
+            <button class="btn sparkle-btn btn-warning">Buy Now >></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card sparkle-card h-100 shadow">
+          <img class="h-50"src="images/shoes/2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> ADIDAS Nizza Platforms</h5>
+            <h5>$5099</h5>
+            <p class="card-text">The adidas Nizza shoes have long been the epitome of casual ease. That's not changing. What has changed with this pair, though, is the outsole — now a bold platform that literally will elevate your look (in more ways than one). They have a classic canvas upper, but also a not-so-classic tie-dye print for a bright, summery vibe.</p>
+          </div>
+          <div class="card-footer sparkle-card-footer">
+            <button class="btn sparkle-btn btn-warning">Buy Now >></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card sparkle-card  h-100 shadow">
+          <img class="h-50" src="images/shoes/3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> J'A DIOR Slingbacks </h5>
+            <h5 ><span class="text-decoration-line-through"> $8999</span> $2780</h5>
+            <p class="card-text">J'Adior pumps have been reinvented this season for Maria Grazia Chiuri’s Autumn 2019 collection. Embellished with a ribbon embroidered with the iconic "J'Adior", these meticulously detailed, exceptional creations can be discovered online. </p>
+          </div>
+          <div class="card-footer sparkle-card-footer">
+            <button class="btn sparkle-btn btn-warning">Buy Now >></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="bags" class="mt-5">
+    <h3>Bags</h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4 ">
+      <div class="col">
+        <div class="card sparkle-card h-100 shadow">
+          <img class="h-50" src="images/bags/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> SMALL LADY DIOR MY ABCDIOR BAG</h5>
+            <h5>$7999</h5>
+            <p class="card-text"> The Lady Dior My ABCDior bag epitomizes the House's vision of elegance and beauty. Sleek and refined, the timeless style is crafted in antique pink lambskin with Cannage stitching, creating the instantly recognizable quilted texture enhanced by a gradient finish. </p>
+          </div>
+          <div class="card-footer sparkle-card-footer">
+            <button class="btn sparkle-btn btn-warning">Buy Now >></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card sparkle-card h-100 shadow">
+          <img class="h-50"src="images/bags/2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> MEDIUM LADY DIOR BAG</h5>
+            <h5>$8700</h5>
+            <p class="card-text">The Lady Dior bag captures the House's vision of beauty and elegance. Sleek and refined, the timeless style is crafted in metallic blue calfskin and presents the Dior Brocart motif, offering a modern new take on House codes. Resin pearl-encrusted pale gold-finish metal 'D.I.O.R.' charms offer a sophisticated allure.</p>
+          </div>
+          <div class="card-footer sparkle-card-footer">
+            <button class="btn sparkle-btn btn-warning">Buy Now >></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card sparkle-card h-100 shadow">
+          <img class="h-50" src="images/bags/3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MICRO 30 MONTAIGNE BAG</h5>
+            <h5>$850</h5>
+            <p class="card-text">The 30 Montaigne line, inspired by the hallmark address, offers essential pieces that embody the House's iconic codes. The handbag is crafted in latte box calfskin and embellished with a flap featuring an antique gold-finish metal 'CD' clasp, inspired by the seal of a Christian Dior perfume bottle. The miniature style has an adjustable leather shoulder strap and can be worn over the shoulder or crossbody.
+            </p>
+          </div>
+          <div class="card-footer sparkle-card-footer">
+            <button class="btn sparkle-btn btn-warning">Buy Now >></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="subscribe" style="height: 300px" class="d-flex justify-content-center align-items-center mt-5 subscribe-section">
+    <div>
+      <h1>LET'S STAY IN TOUCH</h1>
+    <h5>Get updates on celeb fashion and more</h5>
+    <input type="email" placeholder="Enter your email address" >
+    <button class="sparkle-btn">SUBMIT</button>
+    </div>
+  </section>
+</main>
+<footer class="text-center mt-5 mb-3" >©2025. SPARKLE. All rights reserved. Seoul, S.Korea.</footer>
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
